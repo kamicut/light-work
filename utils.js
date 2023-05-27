@@ -55,3 +55,11 @@ export function countDarkSquares(squares) {
 
   return darkSquares.length;
 }
+
+export function isLightSquare(square) {
+  return square.color === "light";
+}
+
+export function isDarkSquare(square) {
+  return square.color === "dark";
+}
